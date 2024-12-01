@@ -10,10 +10,10 @@
             {
                 return i;
             }
-
+       
             if (nums[i] > target)
             {
-                return i - 1;
+                return i;
             }
 
             if (i == nums.Length - 1 && nums[i] < target)
